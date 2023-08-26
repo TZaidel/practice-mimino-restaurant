@@ -242,72 +242,10 @@ a {
   background: var(--white-color);
 }
 
-.btn-lr-item {
-  color: var(--white-color);
-  transition: color 300ms linear;
-}
-
-.btn-lr-item:hover,
-.btn-lr-item:focus {
-  cursor: pointer;
-
-  color: var(--accent-color);
-}
-
-.black-btn-lr-item {
-  transition: color 300ms linear;
-}
-
-.black-btn-lr-item:hover,
-.black-btn-lr-item:focus {
-  cursor: pointer;
-
-  color: var(--accent-color);
-}
-
-.btn-lr-icon {
-  fill: currentColor;
-}
-
-.pre-title {
-  color: #b4b4b4;
-  font-family: 'Times New Roman';
-  font-size: 32px;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: 4px;
-}
-
-.title {
-  color: #494848;
-  /* заголовок3 */
-  font-family: var(--logo-font-family);
-  font-size: 64px;
-  font-weight: 500;
-  letter-spacing: 19.2px;
-  line-height: normal;
-  margin-bottom: 24px;
-}
-
-.text {
-  color: #7a7a7a;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.32px;
-  line-height: normal;
-}
-
-.second-title {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 0.48px;
-  margin-bottom: 8px;
-}
-
 /* --------------ABOUT RESTAURANT-------------- */
 
 .about-rest-section {
+  background: #fffdee;
   padding-top: 120px;
   padding-bottom: 50px;
 }
@@ -364,6 +302,93 @@ a {
 
 /* --------------MENU-------------- */
 
+.menu-section {
+  background: var(--fon-dark-lemon, #f0ecd6);
+}
+
+.menu-container {
+  padding-top: 58px;
+  padding-bottom: 60px;
+}
+
+.menu-title {
+  color: #000;
+  font-family: Times New Roman;
+  font-size: 32px;
+  font-weight: 700;
+
+  margin-bottom: 40px;
+}
+
+.table-wrap {
+  display: flex;
+  gap: 140px;
+}
+/* 
+.menu-table-1{
+  width: 484px;
+} */
+
+.table-title {
+  color: #000;
+  font-family: Times New Roman;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.meal-name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  padding-bottom: 4px;
+}
+
+.meal-desc {
+}
+
+.text {
+  min-width: 262px;
+  color: #000;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.meal-text {
+  min-width: 260px;
+  padding-right: 60px;
+  padding-bottom: 12px;
+}
+
+.meal-weight {
+  color: #000;
+
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.28px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+}
+
+.meal-price {
+  color: #000;
+
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+}
+
+.menu-btn {
+  background-color: #000;
+
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+}
+
 /* -------------- FOOTER-------------- */
 
 .footer-section {
@@ -376,6 +401,12 @@ a {
 }
 
 .footer-logo {
+  font-family: var(--logo-font-family);
+
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 19.2px;
+
   color: var(--accent-color);
   margin-right: 231px;
   margin-top: auto;
