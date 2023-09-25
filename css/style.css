@@ -33,6 +33,8 @@ svg {
 
 img {
   border-radius: 2px;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -63,7 +65,7 @@ a {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 414px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
